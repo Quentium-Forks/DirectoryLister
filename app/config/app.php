@@ -45,6 +45,13 @@ return [
     'home_text' => DI\env('HOME_TEXT', null),
 
     /**
+     * Enable or disable the dark mode option for the website.
+     *
+     * Default value: true
+     */
+    'dark_mode' => DI\env('DARK_MODE', true),
+
+    /**
      * Parse and render README files on the page.
      *
      * Default value: true
